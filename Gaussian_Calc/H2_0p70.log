@@ -1,9 +1,9 @@
  Entering Gaussian System, Link 0=gdv
- Input=H2_0p75.gjf
- Output=H2_0p75.log
+ Input=H2_0p70.gjf
+ Output=H2_0p70.log
  Initial command:
- /home/software/gaussian/gdv/j19/gdv/l1.exe "/home/aodongliu/GauScr/Gau-343251.inp" -scrdir="/home/aodongliu/GauScr/"
- Entering Link 1 = /home/software/gaussian/gdv/j19/gdv/l1.exe PID=    343252.
+ /home/software/gaussian/gdv/j19/gdv/l1.exe "/home/aodongliu/GauScr/Gau-347962.inp" -scrdir="/home/aodongliu/GauScr/"
+ Entering Link 1 = /home/software/gaussian/gdv/j19/gdv/l1.exe PID=    347963.
   
  Copyright (c) 1988-2021, Gaussian, Inc.  All Rights Reserved.
   
@@ -97,16 +97,16 @@
  -------------------
  Symbolic Z-matrix:
  Charge =  0 Multiplicity = 1
- H                    -2.17554  -0.31587   0. 
- H                    -2.92554  -0.31587   0. 
+ H                     0.        0.        0. 
+ H                     0.        0.7       0. 
  
                           Input orientation:                          
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
  ---------------------------------------------------------------------
-      1          1           0       -2.175539   -0.315871    0.000000
-      2          1           0       -2.925539   -0.315871    0.000000
+      1          1           0        0.000000    0.000000    0.000000
+      2          1           0        0.000000    0.700000    0.000000
  ---------------------------------------------------------------------
  Stoichiometry    H2
  Framework group  D*H[C*(H.H)]
@@ -119,10 +119,10 @@
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
  ---------------------------------------------------------------------
-      1          1           0        0.000000    0.000000    0.375000
-      2          1           0        0.000000    0.000000   -0.375000
+      1          1           0        0.000000    0.000000    0.350000
+      2          1           0        0.000000    0.000000   -0.350000
  ---------------------------------------------------------------------
- Rotational constants (GHZ):           0.0000000        1782.9514826        1782.9514826
+ Rotational constants (GHZ):           0.0000000        2046.7555285        2046.7555285
  Standard basis: 3-21G (6D, 7F)
  There are     2 symmetry adapted cartesian basis functions of AG  symmetry.
  There are     0 symmetry adapted cartesian basis functions of B1G symmetry.
@@ -142,13 +142,13 @@
  There are     0 symmetry adapted basis functions of B3U symmetry.
      4 basis functions,     6 primitive gaussians,     4 cartesian basis functions
      1 alpha electrons        1 beta electrons
-       nuclear repulsion energy         0.7055696146 Hartrees.
+       nuclear repulsion energy         0.7559674442 Hartrees.
  NAtoms=    2 NActive=    2 NUniq=    1 SFac= 4.00D+00 NAtFMM=   60 NAOKFM=F Big=F
  Integral buffers will be    131072 words long.
  Regular integral format.
  Two-electron integral symmetry is turned off.
  One-electron integrals computed using PRISM.
- NBasis=     4 RedAO= T EigKep=  1.10D-01  NBF=     2     0     0     0     0     2     0     0
+ NBasis=     4 RedAO= T EigKep=  9.89D-02  NBF=     2     0     0     0     0     2     0     0
  NBsUse=     4 1.00D-06 EigRej= -1.00D+00 NBFU=     2     0     0     0     0     2     0     0
  ExpMin= 1.83D-01 ExpMax= 5.45D+00 ExpMxC= 5.45D+00 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
  Harris functional with IExCor= 2005 and IRadAn=       5 diagonalized for initial guess.
@@ -207,22 +207,22 @@
          NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
  Symmetry not used in FoFCou.
  Defining IBUGAM
- 2ND ORD PT ENERGY     CV    0.000000   CU    0.000000   UV   -0.007963
- TOTAL                      -1.138217
- ITN=  1 MaxIt=128 E=     -1.1302537275 DE=-1.13D+00 Acc= 1.00D-08 Lan=  0
- ITN=  2 MaxIt=128 E=     -1.1417703754 DE=-1.15D-02 Acc= 1.00D-08 Lan=  0
- ITN=  3 MaxIt=128 E=     -1.1424611911 DE=-6.91D-04 Acc= 1.00D-08 Lan=  0
- ITN=  4 MaxIt=128 E=     -1.1425556695 DE=-9.45D-05 Acc= 1.00D-08 Lan=  0
- ITN=  5 MaxIt=128 E=     -1.1425693728 DE=-1.37D-05 Acc= 1.00D-08 Lan=  0
- ITN=  6 MaxIt=128 E=     -1.1425713710 DE=-2.00D-06 Acc= 1.00D-08 Lan=  0
- ITN=  7 MaxIt=128 E=     -1.1425716627 DE=-2.92D-07 Acc= 1.00D-08 Lan=  0
- ITN=  8 MaxIt=128 E=     -1.1425717053 DE=-4.26D-08 Acc= 1.00D-08 Lan=  0
- ITN=  9 MaxIt=128 E=     -1.1425717116 DE=-6.22D-09 Acc= 1.00D-08 Lan=  0
+ 2ND ORD PT ENERGY     CV    0.000000   CU    0.000000   UV   -0.008169
+ TOTAL                      -1.135560
+ ITN=  1 MaxIt=128 E=     -1.1273910220 DE=-1.13D+00 Acc= 1.00D-08 Lan=  0
+ ITN=  2 MaxIt=128 E=     -1.1394371246 DE=-1.20D-02 Acc= 1.00D-08 Lan=  0
+ ITN=  3 MaxIt=128 E=     -1.1401453533 DE=-7.08D-04 Acc= 1.00D-08 Lan=  0
+ ITN=  4 MaxIt=128 E=     -1.1402436840 DE=-9.83D-05 Acc= 1.00D-08 Lan=  0
+ ITN=  5 MaxIt=128 E=     -1.1402582505 DE=-1.46D-05 Acc= 1.00D-08 Lan=  0
+ ITN=  6 MaxIt=128 E=     -1.1402604148 DE=-2.16D-06 Acc= 1.00D-08 Lan=  0
+ ITN=  7 MaxIt=128 E=     -1.1402607363 DE=-3.21D-07 Acc= 1.00D-08 Lan=  0
+ ITN=  8 MaxIt=128 E=     -1.1402607841 DE=-4.77D-08 Acc= 1.00D-08 Lan=  0
+ ITN=  9 MaxIt=128 E=     -1.1402607912 DE=-7.09D-09 Acc= 1.00D-08 Lan=  0
  ... Do an extra-iteration for final printing.
  Final one electron symbolic density matrix:
                 1             2 
-      1  0.197447D+01
-      2  0.000000D+00  0.255282D-01
+      1  0.197844D+01
+      2 -0.559430D-15  0.215633D-01
  MCSCF converged.
 
  **********************************************************************
@@ -239,8 +239,8 @@
  Alpha virt. eigenvalues --        0.00000       0.00000       0.00000
           Condensed to atoms (all electrons):
                1          2
-     1  H    0.629595   0.370405
-     2  H    0.370405   0.629595
+     1  H    0.618922   0.381078
+     2  H    0.381078   0.618922
  Mulliken charges:
                1
      1  H    0.000000
@@ -248,46 +248,47 @@
  Sum of Mulliken charges =   0.00000
  Mulliken charges with hydrogens summed into heavy atoms:
                1
- Electronic spatial extent (au):  <R**2>=              5.1109
+ Electronic spatial extent (au):  <R**2>=              4.8761
  Charge=              0.0000 electrons
  Dipole moment (field-independent basis, Debye):
     X=              0.0000    Y=              0.0000    Z=              0.0000  Tot=              0.0000
  Quadrupole moment (field-independent basis, Debye-Ang):
-   XX=             -1.9756   YY=             -1.9756   ZZ=             -1.5721
+   XX=             -1.9140   YY=             -1.9140   ZZ=             -1.5537
    XY=              0.0000   XZ=              0.0000   YZ=              0.0000
  Traceless Quadrupole moment (field-independent basis, Debye-Ang):
-   XX=             -0.1345   YY=             -0.1345   ZZ=              0.2690
+   XX=             -0.1201   YY=             -0.1201   ZZ=              0.2402
    XY=              0.0000   XZ=              0.0000   YZ=              0.0000
  Octapole moment (field-independent basis, Debye-Ang**2):
   XXX=              0.0000  YYY=              0.0000  ZZZ=              0.0000  XYY=              0.0000
   XXY=              0.0000  XXZ=              0.0000  XZZ=              0.0000  YZZ=              0.0000
   YYZ=              0.0000  XYZ=              0.0000
  Hexadecapole moment (field-independent basis, Debye-Ang**3):
- XXXX=             -1.7251 YYYY=             -1.7251 ZZZZ=             -2.7292 XXXY=              0.0000
+ XXXX=             -1.6404 YYYY=             -1.6404 ZZZZ=             -2.4836 XXXY=              0.0000
  XXXZ=              0.0000 YYYX=              0.0000 YYYZ=              0.0000 ZZZX=              0.0000
- ZZZY=              0.0000 XXYY=             -0.5750 XXZZ=             -0.7531 YYZZ=             -0.7531
+ ZZZY=              0.0000 XXYY=             -0.5468 XXZZ=             -0.6957 YYZZ=             -0.6957
  XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=              0.0000
- N-N= 7.055696145600D-01 E-N=-3.611107867251D+00  KE= 1.148031834645D+00
- Symmetry AG   KE= 1.110101577117D+00
+ N-N= 7.559674441714D-01 E-N=-3.726077150757D+00  KE= 1.194176245441D+00
+ Symmetry AG   KE= 1.160197705073D+00
  Symmetry B1G  KE= 0.000000000000D+00
  Symmetry B2G  KE= 0.000000000000D+00
  Symmetry B3G  KE= 0.000000000000D+00
  Symmetry AU   KE= 0.000000000000D+00
- Symmetry B1U  KE= 3.793025752823D-02
+ Symmetry B1U  KE= 3.397854036818D-02
  Symmetry B2U  KE= 0.000000000000D+00
  Symmetry B3U  KE= 0.000000000000D+00
  Unable to Open any file for archive entry.
  1\1\GINC-TYCHE\SP\CASSCF\3-21G\H2\AODONGLIU\08-Jun-2022\0\\# casscf(2,
- 2)/3-21g geom=connectivity\\Title Card Required\\0,1\H,0,-2.17553922,-
- 0.31587057,0.\H,0,-2.92553922,-0.31587057,0.\\Version=ES64L-GDVRevJ.19
- \State=1-SGG\HF=-1.1425717\RMSD=0.000e+00\Dipole=0.,0.,0.\Quadrupole=0
- .1999939,-0.0999969,-0.0999969,0.,0.,0.\PG=D*H [C*(H1.H1)]\\@
+ 2)/3-21g geom=connectivity\\Title Card Required\\0,1\H,0,0.,0.,0.\H,0,
+ 0.,0.7,0.\\Version=ES64L-GDVRevJ.19\State=1-SGG\HF=-1.1402608\RMSD=0.0
+ 00e+00\Dipole=0.,0.,0.\Quadrupole=-0.0892912,0.1785824,-0.0892912,0.,0
+ .,0.\PG=D*H [C*(H1.H1)]\\@
  The archive entry for this job was punched.
 
 
- ERROR IS A HARDY PLANT... IT FLOURISHETH IN EVERY SOIL.
-            MARTIN FARQUHAR TUPPER
+ UNDER MOST GREENE GRASSE LY MOST GREATE SNAKES.
+ -- PROVERBS AND REASONS OF THE YEAR 1585
+           AS REPRINTED IN PAISLEY MAGAZINE 1828.
  Job cpu time:       0 days  0 hours  0 minutes  1.2 seconds.
  Elapsed time:       0 days  0 hours  0 minutes  1.2 seconds.
  File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
- Normal termination of Gaussian DV at Wed Jun  8 02:45:57 2022.
+ Normal termination of Gaussian DV at Wed Jun  8 08:01:30 2022.
